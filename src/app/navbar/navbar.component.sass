@@ -1,0 +1,31 @@
+.btn-delete-item
+    color: #000
+    &:hover
+        color: red
+
+.cart-collapse    
+    width: 300px
+    right: 0px
+    padding: 28px 9px 9px 9px
+    background: white
+    position: absolute
+    display: none
+    &:hover
+        display: block
+
+.item-card
+    padding: 10px 0px
+    border: 1px solid #cecece
+    cursor: pointer
+
+.navbar_user > .checkout
+    &:hover > .cart-collapse
+        display: block
+
+.navbar_user > .checkout > a
+    &:hover ~ .cart-collapse
+        display: block
+
+
+.text-item-card
+    text-align: initial
